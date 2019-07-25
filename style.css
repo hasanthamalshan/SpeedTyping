@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+body{
+  background-color: #2A2D40;
+  /* background-image: linear-gradient(#2A2D40,#cc0099); */
+}
+.name{
+
+  text-align: center;
+  color: #878F9F;
+}
+.time{
+  margin: 20px auto;
+  background-color: #313445;
+  width: 200px;
+  height: 120px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  color: #42BF7D;
+}
+.box{
+  color:#313445;
+}
+.word{
+  border-radius: 3px;
+  margin: 20px auto;
+  height: 90px;
+  width: 600px;
+  background-color:#313445;
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+  color: #5A2A4E;
+}
+.level{
+  margin: 20px auto;
+  background-color: #313445;
+  width: 200px;
+  height: 150px;
+  padding-top: 22px;
+  padding-bottom: 8px;
+  margin-left: 30%;
+  text-align: center;
+  position: relative;
+  color: #D5C336;
+  float: left;
+}
+
+.progress-bar{
+  text-align: center;
