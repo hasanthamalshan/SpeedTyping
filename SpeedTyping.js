@@ -3,6 +3,19 @@ var j = 10;
 var text = "type me ...";
 var time = 20;
 
+let letters = [];
+const words = ['apple', 'orange', 'grapes', 'mango'];
+
+function displayWord() {
+
+    let word = words[0];
+    document.getElementById("text").innerHTML += word;
+
+    letters = word.split('');
+    document.getElementById("text1").innerHTML += letters;
+
+}
+
 function typing() {
     if (i < text.length) {
         document.getElementById("title").innerHTML += text.charAt(i);
@@ -22,3 +35,7 @@ function timecount() {
         setTimeout(timecount, 1000);
     }
 }
+
+typing()
+displayWord()
+timecount()
